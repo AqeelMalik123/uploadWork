@@ -1,5 +1,4 @@
-import { Routes, Route, Link } from "react-router-dom";
-import { Home,Electronic,BabyToy,BeautyFragrance,Sport,Men,Women } from "../container";
+// import { Routes, Route, Link } from "react-router-dom";
 import {Navbar,Gif,ScrolbarSec,MainSlider, HeaderCard, MainCard, RecommendedCard } from "../component";
 const AppRouter=()=>{
     return(
@@ -27,16 +26,6 @@ const AppRouter=()=>{
                 <MainCard/>
            
             
-            <Routes>
-                <Route path="/"  element={<Home/>} />
-                <Route path="/electronic"  element={<Electronic/>} />
-                <Route path="/babytoy"  element={<BabyToy/>} />
-                <Route path="/beauty"  element={<BeautyFragrance/>} />
-                <Route path="/women"  element={<Women/>} />
-                <Route path="/men"  element={<Men/>} />
-                <Route path="/sport"  element={<Sport/>} />
-                
-            </Routes>
         </div>
     )
 }

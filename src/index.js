@@ -5,18 +5,17 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 
 
 
 
 
 ReactDOM.render(
-  <BrowserRouter>
-  <App />
-</BrowserRouter>,
 
-  
+  <App />
+
+  ,
   
   document.getElementById('root')
 );
